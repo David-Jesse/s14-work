@@ -57,12 +57,145 @@ li {
   color: #000000;
   display: flex;
   gap: 30px;
+  margin-right: 14.25rem;
 }
 .nav-menu .navigation a {
   color: #000000;
 }
 .nav-menu .navigation .blog a {
   color: #BDBDBD;
+}
+
+.our-work {
+  display: flex;
+  justify-content: space-between;
+}
+.our-work .us {
+  width: 50%;
+}
+.our-work .post-filterer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 14.8rem;
+  margin-top: 2.5rem;
+}
+.our-work .filter {
+  color: #000000;
+  font-weight: 600;
+}
+.our-work .posts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.feature-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.feature-1 h3 {
+  margin-top: 10px;
+}
+.feature-1 .tags {
+  line-height: 16px;
+  width: 74%;
+  margin-top: -10px;
+}
+.feature-1 .expand {
+  width: 75%;
+  display: flex;
+  gap: 70%;
+  align-items: center;
+}
+.feature-1 .business {
+  color: #BDBDBD;
+  font-weight: 600;
+}
+.feature-1 .read-more {
+  display: flex;
+  line-height: 10px;
+  align-items: center;
+}
+.feature-1 .read-more p {
+  color: #FF2546;
+}
+
+.feature-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.feature-2 .graph {
+  width: 68%;
+  height: 63%;
+}
+.feature-2 h3 {
+  font-size: larger;
+}
+.feature-2 .tags {
+  width: 52%;
+  line-height: 14px;
+  margin-top: 1px;
+}
+.feature-2 .expand {
+  width: 75%;
+  display: flex;
+  gap: 60%;
+  align-items: center;
+}
+.feature-2 .business {
+  color: #BDBDBD;
+  font-weight: 600;
+}
+.feature-2 .read-more {
+  display: flex;
+  line-height: 10px;
+  align-items: center;
+}
+.feature-2 .read-more p {
+  color: #FF2546;
+}
+
+.feature-3 .glass-img {
+  height: 50%;
+  width: 70%;
+}
+.feature-3 h3 {
+  width: 61%;
+  margin-left: 8px;
+}
+.feature-3 p {
+  width: 52%;
+  line-height: 14px;
+  margin-top: -1px;
+  margin-left: 8px;
+}
+.feature-3 .expand {
+  width: 75%;
+  display: flex;
+  gap: 60%;
+  align-items: center;
+}
+.feature-3 .business {
+  color: #BDBDBD;
+  font-weight: 600;
+}
+.feature-3 .read-more {
+  display: flex;
+  line-height: 10px;
+  align-items: center;
+}
+.feature-3 .read-more p {
+  color: #FF2546;
 }
 
 /*# sourceMappingURL=/style.500aa19d.css.map */

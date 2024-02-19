@@ -9,6 +9,7 @@
         color: $primary-color;
         display: flex;
         gap: 30px;
+        margin-right: 14.25rem;
 
         a {
             color:  $primary-color;
@@ -17,8 +18,5 @@
         .blog a {
             color: $tertiary-color;
         }
-
-
     }
 }
-
